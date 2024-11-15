@@ -1,0 +1,9 @@
+{
+	"name": "batchprocessingadf",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "39b38f31-bbdb-47d3-abbf-dae1b533d030",
+		"tenantId": "c14ed7e0-ebc9-4561-aeb9-db8229535797"
+	}
+}
