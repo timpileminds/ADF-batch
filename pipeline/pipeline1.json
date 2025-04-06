@@ -20,6 +20,7 @@
 						"storeSettings": {
 							"type": "AzureBlobFSReadSettings",
 							"recursive": true,
+							"wildcardFileName": "*",
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
@@ -49,20 +50,20 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "input_ds_csv",
+						"referenceName": "DelimitedText1",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "output_ds_csv",
+						"referenceName": "DelimitedText1",
 						"type": "DatasetReference"
 					}
 				]
 			}
 		],
 		"annotations": [],
-		"lastPublishTime": "2024-11-14T11:54:30Z"
+		"lastPublishTime": "2025-04-06T08:37:26Z"
 	},
 	"type": "Microsoft.DataFactory/factories/pipelines"
 }
